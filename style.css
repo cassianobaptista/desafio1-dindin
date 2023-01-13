@@ -1,0 +1,84 @@
+
+/* Global */
+
+* { 
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2E948A;
+    --pink-color: #FF4081;
+    --grey--text: #555555;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header, .presentation, .features, .testimony, .bonus, .footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header__container {
+    background-color: var(--primary-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    margin-left: 82px;
+    margin-top: 20px;
+    height: 71px;
+}
+
+.header__nav {
+    display: flex;
+    margin-right: 103px;
+    padding: 47px 0;
+}
+
+.header__nav-item {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.98px;
+    margin-left: 42px;
+}
+
+
+/* presentation fazer */
+
+
+/* features*/
+
+.features__container {
+    background-color: #F6F6F6;
+}
+
+
+/* testimony */
+
+
+/*bonus*/
+
+.bonus__container {
+    background-color: #F6F6F6;
+}
+
+
+/* footer */
+
+.footer__container {
+    background-color: var(--primary-color);
+}
