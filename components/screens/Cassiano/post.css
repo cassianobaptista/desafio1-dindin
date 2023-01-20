@@ -6,15 +6,15 @@
     --primary-color: #2E948A;
     --pink-color: #FF4081;
     --grey--text: #555555;
-
     -webkit-font-smoothing: antialiased;
+    font-size: 62.5%; /*para a conversão do REM*/
 }
 
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
 }
-
 
 /* header */ 
 
@@ -30,106 +30,107 @@ body {
     max-width: 1440px;
 }
 
-
 .header__logo {
-    width: 120px;
-    margin: 10px;
+    width: 12rem;
+    margin: 1rem;
 }
 
 .header__nav {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .header__nav-item {
     text-decoration: none;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
+.header__nav-item:hover {
+    filter: contrast(0.8);
+}
 
 /* main*/
 
 .article {
-    margin: 45px 18px 70px 18px;
+    margin: 4.5rem 1.8rem 7rem 1.8rem;
 }
 
 .article__presentation-title {
     color: var(--pink-color);
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .article__presentation-data {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #9D9D9D;
 }
 
 .article__presentation-image {
     display: flex;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 100%;
 }
 
 .article__content-title {
     font-weight: 500;
     color: var(--primary-color);
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .article__content-text {
-    margin-bottom: 30px;
-    line-height: 23px;
+    margin-bottom: 3rem;
+    line-height: 2.3rem;
     font-weight: 300;
-    font-size: 16px;
-    margin-top: 15px;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
 }
-
 
 /* features */
 
 .features {
     background-color: #F6F6F6;
-    padding-bottom: 65px;
+    padding-bottom: 6.5rem;
 }
 
 .features__title {
     color: var(--pink-color);    
     font-weight: 500;
-    font-size: 24px;
+    font-size: 2.4rem;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 6rem;
 }
 
 .features__item-image {
     max-width: 100%;
-    width: 230px;
+    width: 23rem;
     display: flex;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 
 .features__item-title {
     color: var(--pink-color);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 2.2rem;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .features__item-content {
     font-weight: 300;
-    line-height: 20px;
-    padding: 0 20px;
+    line-height: 2rem;
+    padding: 0 2rem;
     text-align: center;
 }
 
@@ -140,15 +141,18 @@ body {
     text-decoration: none;
     background-color: var(--pink-color);
     color: #ffffff;  
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    width: 233px;
-    height: 51px;
-    border-radius: 62px;
+    width: 23.3rem;
+    height: 5.5rem;
+    border-radius: 6.2rem;
     margin: 0 auto;
-    margin-top: 26px;
+    margin-top: 2.6rem;
 }
 
+.features__item-cta:hover {
+    background-color: #d8205d;
+}
 
 /* footer */
 
@@ -159,23 +163,18 @@ body {
 .footer__container {
     display: flex;
     flex-direction: column;
-    padding-top: 35px;
+    padding-top: 3.5rem;
 }
 
 .footer__logo {
     display: flex;
-    width: 200px;
+    width: 20rem;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 .footer__text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 25px;
-    color: #fff;
-    margin-bottom: 25px;
+    display: none;
 }
 
 .footer__cta {
@@ -188,14 +187,17 @@ body {
     text-decoration: none;
     color: #fff;
     border: 2px solid #ffffff;
-    border-radius: 62px;
-    padding: 10px;
-    margin-bottom: 25px;
-    width: 180px;
+    border-radius: 6.2rem;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    width: 18;
     text-align: center;
 }
 
-
+.footer__cta-button:hover {
+    background-color: #257970;
+    transition: 200ms;
+}
 
 @media (min-width: 768px) {
 
@@ -219,7 +221,6 @@ body {
         margin-right: 40px;
     }
 
-
     /*article*/
 
     .article {
@@ -229,7 +230,6 @@ body {
     .article__presentation-image {
         margin-bottom: 70px;
     }
-
 
     /* features */
 
@@ -252,7 +252,6 @@ body {
         margin-right: 200px;
     }
 
-
     /* footer */
 
     .footer__container {
@@ -270,6 +269,7 @@ body {
 
     .footer__text {
         margin-top: 13px;
+        text-decoration: none;
     }
 
     .footer__cta {
@@ -277,8 +277,6 @@ body {
     }
 
 }
-
-
 
 @media (min-width: 900px) {
 
@@ -299,7 +297,6 @@ body {
         font-size: 15px;
     }
 
-
     /* presentation */
 
     .article {
@@ -310,7 +307,6 @@ body {
         margin-bottom: 50px;
     }
 
-
     /* features */ 
     
     .features__block {
@@ -320,6 +316,12 @@ body {
         padding: 0 128px;
     }
     
+    .features__item {
+        align-items: baseline;
+        max-width: 102.4rem;
+        margin: 0 auto;
+    }
+
     .features__item-image {
         margin-top: 109px;
         width: 170px;
@@ -329,6 +331,10 @@ body {
     .features__item-title {
         font-size: 25px;
         font-weight: 700;
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
     }
     
     .features__item-content {
@@ -357,9 +363,26 @@ body {
         margin-top: 36px;
     }
 
+    /* Footer */
+
+    .footer__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 25px;
+        color: #fff;
+        margin-bottom: 25px;
+    }
+
+    .footer__text span a {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .footer__text span a:hover {
+        color: #b8e4df;
+    }
 }
-
-
 
 @media (min-width: 1024px) {
 
@@ -382,7 +405,6 @@ body {
     font-size: 20px;
     margin-left: 42px;
 }
-
 
 /* presentation */
 
@@ -418,16 +440,13 @@ body {
     font-size: 18px;
 }
 
-
 /* features */
 
 .features__block {
     max-width: 1440px;
 }
 
-
 /* footer */
-
 
 .footer__container {
     display: flex;
@@ -449,6 +468,7 @@ body {
 .footer__text {
     font-size: 20px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .footer__cta-button {

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +7,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/components/styles/reset.css">
-    <link rel="stylesheet" href="/components/styles/index.css">
-    <link rel="stylesheet" href="/components/styles/global.css">
-    <title>Dindin</title>
+    <link rel="stylesheet" href="components/styles/reset.css">
+    <link rel="stylesheet" href="components/styles/index.css">
+    <title>DinDin Home</title>
 </head>
-
 <body>
-
+    
     <header class="header">
 
         <div class="header__container">
@@ -41,6 +36,7 @@
     <main>
 
         <section class="presentation">
+
             <div class="presentation__description-container">
 
                 <h1 class="presentation__description-title">Educação Financeira <br> é tudo de bom</h1>
@@ -55,7 +51,7 @@
 
         <section class="features">
 
-            <div class="features__block">
+            <div class="features__container">
 
                 <div class="features__item">
 
@@ -110,50 +106,60 @@
 
             <div class="testimony__container">
 
-                <img class="testimony__item-image" src="./assets/imgs/icon-wally.png" alt="Foto do Wally">
+                <div class="item-wrap">
 
-                <div class="testimony__item">
+                    <img class="testimony__item-image" src="./assets/imgs/icon-wally.png" alt="Foto do Wally">
 
-                    <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
-                        voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+                    <div class="testimony__item">
 
-                    <span class="testimony__item-person">Wally, 25</span>
+                        <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
+                            voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
 
-                </div>
+                        <span class="testimony__item-person">Wally, 25</span>
 
-                <img class="testimony__item-image" src="./assets/imgs/icon-whoopi.png" alt="Foto da Whoopi">
+                    </div>
 
-                <div class="testimony__item">
+                    <img class="testimony__item-image" src="./assets/imgs/icon-whoopi.png" alt="Foto da Whoopi">
 
-                    <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
-                        voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+                    <div class="testimony__item">
 
-                    <span class="testimony__item-person">Whoopi Goldberg, 37</span>
+                        <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
+                            voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
 
-                </div>
+                        <span class="testimony__item-person">Whoopi Goldberg, 37</span>
 
-                <img class="testimony__item-image" src="./assets/imgs/icon-jaden.png" alt="Foto do Jaden">
+                    </div>
 
-                <div class="testimony__item">
+                </div> 
 
-                    <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
-                        voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
-                    </p>
+                <div class="item-wrap">
 
-                    <span class="testimony__item-person">Jaden Smith, 23</span>
 
-                </div>
+                    <img class="testimony__item-image" src="./assets/imgs/icon-jaden.png" alt="Foto do Jaden">
 
-                <img class="testimony__item-image" src="./assets/imgs/icon-jaden.png" alt="Foto da">
+                    <div class="testimony__item">
 
-                <div class="testimony__item">
+                        <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
+                            voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+                        </p>
 
-                    <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
-                        voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+                        <span class="testimony__item-person">Jaden Smith, 23</span>
 
-                    <span class="testimony__item-person">Janes Joplin, 29</span>
+                    </div>
 
-                </div>
+                    <img class="testimony__item-image" src="./assets/imgs/icon-jaden.png" alt="Foto da">
+
+                    <div class="testimony__item">
+
+                        <p class="testimony__item-content">”Sed ut perspiciatis unde omnis iste natus <br> error sit
+                            voluptatem accusantium doloremque <br> laudantium, totam rem aperiam.”</p>
+
+                        <span class="testimony__item-person">Janes Joplin, 29</span>
+
+                    </div>
+   
+                </div>     
+
 
             </div>
 
@@ -163,7 +169,7 @@
 
                 <h1 class="bonus__title">MAIS CONTEÚDO PARA VOCÊ</h1>
 
-                <div class="bonus__block">
+                <div class="bonus__container">
 
                     <div class="bonus__item">
 
@@ -204,7 +210,7 @@
 
                 <a class="bonus__cta" href="#">Ver todos os posts</a>
 
-        </section>    
+        </section>            
 
     </main>
 
@@ -215,9 +221,9 @@
             <img class="footer__logo" src="./assets/imgs/logo-footer.png" alt="Logo da Dindin">
 
             <div class="footer__text">
-                <span>cursos</span>
-                <span>blog</span>
-                <span>contato</span>
+                <span><a href="#">cursos</a></span>
+                <span><a href="#">blog</a></span>
+                <span><a href="#">contato</a></span>
             </div>
 
             <div class="footer__cta">
@@ -225,10 +231,9 @@
                 <a class="footer__cta-button" href="#">aqui tem outro link</a>
             </div>
 
-        </div>
+        </div>        
 
     </footer>
 
 </body>
-
 </html>
