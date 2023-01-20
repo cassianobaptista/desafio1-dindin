@@ -178,9 +178,7 @@ body {
 }
 
 .footer__cta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
 }
 
 .footer__cta-button {
@@ -374,6 +372,13 @@ body {
         margin-bottom: 25px;
     }
 
+    .footer__cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+
+
     .footer__text span a {
         text-decoration: none;
         color: #FFF;
@@ -427,12 +432,14 @@ body {
     width: 1032px;
     height: 465px;
     margin-bottom: 64px;
+    max-width: 90%;
 }
 
 .article__content {
     width: 1032px;
     margin: 0 auto;
     margin-bottom: 160px;
+    max-width: 90%;
 }
 
 .article__content-text {
