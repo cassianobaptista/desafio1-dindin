@@ -55,9 +55,85 @@ body {
 
 /* Presentation */
 
+.course__presentation {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.presentation__title {
+    color: var(--pink-color);
+    font-size: 6rem;
+    font-weight: 700;
+    max-width: 50rem;
+}
+
+.presentation__content {
+    max-width: 50rem;
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
 
 /* Features */
 
+.classes__container {
+    background-color: #F6F6F6;
+    border: 6rem solid #F6F6F6;
+}
+
+.class__item {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 6rem;
+}
+
+#aula__2 {
+    border-top: 0.3rem solid #C4C4C4;
+    border-bottom: 0.3rem solid #C4C4C4;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+}
+
+#aula__2 img {
+    width: 40rem;
+}
+
+.class__item img {
+    width: 40rem;
+}
+
+.class__title {
+    color: var(--pink-color);
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.class__content__1 {
+    max-width: 50rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.class__content__2 {
+    max-width: 50rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
 
 /* footer */
 
@@ -102,6 +178,59 @@ body {
     transition: 200ms;
 }
 
+@media (min-width: 390px) {
+
+/* Presentation */
+
+.course__presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation__container {
+    max-width: 35rem;
+}
+
+.presentation__title {
+    font-size: 4rem;
+    max-width: 30rem;
+}
+
+/* Features */
+
+.classes__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aula__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class__item img {
+    max-width: 35rem;
+}
+
+#aula__2 img {
+    max-width: 35rem;
+}
+
+.class__title {
+    margin-top: 6rem;
+}
+
+}
+
 
 @media (min-width: 768px) {
 
@@ -125,11 +254,29 @@ body {
     margin-right: 40px;
 }   
 
+/* Presentation */
 
-/* Presentation */ 
+.course__presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.course__presentation img {
+    height: 50rem;
+    width: 55rem;
+    margin-top: 6rem;
+}
 
-/* Features */ 
+.presentation__content {
+    margin-top: 6rem;
+}
+
+/* Features */
+
+.class__container {
+    padding-left: 6rem;
+}
 
 
 /* footer */
@@ -185,11 +332,57 @@ body {
 }
 
 
-/* Presentation */ 
+/* Presentation */
 
+.course__presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.course__presentation img {
+    max-width: 45rem;
+}
+
+.presentation__container {
+    max-width: 50rem;
+}
+
+.presentation__title {
+    color: var(--pink-color);
+    font-size: 6rem;
+    font-weight: 700;
+    max-width: 50rem;
+}
+
+.presentation__content {
+    max-width: 50rem;
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
 
 /* Features */
 
+.class__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#aula__2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.class__container {
+    margin-bottom: 6rem;
+}
 
 /* Footer */
 
@@ -197,6 +390,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -204,17 +398,20 @@ body {
 .footer__logo {
     display: flex;
     margin: 0;
+    margin-top: 2rem;
 }
 
 .footer__text {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
-.footer__text-item {
+.footer__text {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.footer__text-item a {
+.footer__text a {
     text-decoration: none;
     color: #fff;
     line-height: 2rem;
@@ -227,7 +424,9 @@ body {
 .footer__cta {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .footer__cta-button {
@@ -252,6 +451,5 @@ body {
     background-color: #257970;
     transition: 200ms;
 }
-
 
 }

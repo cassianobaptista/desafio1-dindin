@@ -124,6 +124,13 @@ body {
     font-size: 2.2rem;
 }
 
+.features__item-title a {
+    color: var(--pink-color);
+    font-weight: 500;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
 .features__item-content {
     font-weight: 300;
     font-size: 1.4rem;

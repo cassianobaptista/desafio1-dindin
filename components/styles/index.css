@@ -240,6 +240,14 @@ body {
     margin-top: 1rem;
 }
 
+.bonus__item-title a {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
 .bonus__item-content {
     font-weight: 400;
     margin-top: 1rem;
