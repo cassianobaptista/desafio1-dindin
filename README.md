@@ -5,7 +5,7 @@ Desafio 1 da Gama Experience
 Projeto feito no Desafio 1 do Gama Experience #48, onde recebemos um projeto no Figma referente à uma empresa fictícia para elaborarmos todo o HTML e CSS incluindo responsividade para smartphones, tablets e desktop.
 
 ## Objetivo:
-Criar o site da empresa com HTML5, CSS3, responsividade e link de navegação entre as páginas.
+Criar o site da empresa com HTML5, CSS3, responsividade (a partir de 390px) e link de navegação entre as páginas.
 
 ## Ferramentas utilizadas:
 - HTML
