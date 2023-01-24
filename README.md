@@ -1,11 +1,12 @@
-# desafio1-dindin
-Desafio 1 da Gama Experience
+![Logo-Dindin](https://cassianobaptista.github.io/desafio1-dindin/assets/imgs/logo-header.png)
+# Dindin - Educação Financeira
+Desafio 1 do Gama Experience
 
 ## Descrição:
-Projeto feito no Desafio 1 do Gama Experience #48, onde recebemos um projeto no Figma referente à uma empresa fictícia para elaborarmos todo o HTML e CSS incluindo responsividade para smartphones, tablets e desktop.
+Projeto feito no Desafio 1 do Gama Experience #48, onde recebemos um projeto no Figma referente à uma empresa fictícia, do ramo de educação financeira, para elaborarmos todo o HTML e CSS incluindo responsividade para smartphones, tablets e desktop.
 
 ## Objetivo:
-Criar o site da empresa com HTML5, CSS3, responsividade (a partir de 390px) e link de navegação entre as páginas.
+Criar o site da empresa com HTML5, CSS3, responsividade e links de navegação entre as páginas.
 
 ## Ferramentas utilizadas:
 - HTML
@@ -26,3 +27,4 @@ Criar o site da empresa com HTML5, CSS3, responsividade (a partir de 390px) e li
 ## Colaboradores:
 - [Felipe Mascena](https://github.com/FMascena)
 - [Cassiano Batista](https://github.com/cassianobaptista)
+- Háyran Guilherme
