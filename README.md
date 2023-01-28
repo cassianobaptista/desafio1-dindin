@@ -22,7 +22,7 @@ Criar o site da empresa com HTML5, CSS3, responsividade e links de navegação e
 2. Abra o terminal e navegue até a pasta onde você deseja clonar o projeto;
 3. Digite o comando git clone seguido do link do repositório. Exemplo: git clone https://github.com/cassianobaptista/desafio1-dindin.git;
 4. Pressione enter e o Git irá baixar todos os arquivos do seu projeto para a pasta especificada;
-5. Para verificar se tudo foi feito corretamente digite o comando git status.
+5. Para verificar se tudo foi feito corretamente digite o comando git status;
 
 ## Colaboradores:
 - [Felipe Mascena](https://github.com/FMascena)
