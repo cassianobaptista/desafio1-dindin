@@ -26,3 +26,4 @@ Criar o site da empresa com HTML5, CSS3, responsividade (a partir de 390px) e li
 ## Colaboradores:
 - [Felipe Mascena](https://github.com/FMascena)
 - [Cassiano Batista](https://github.com/cassianobaptista)
+- [Hayran Guilherme](https://github.com/Hayran-Guilherme)
