@@ -27,4 +27,4 @@ Criar o site da empresa com HTML5, CSS3, responsividade e links de navegação e
 ## Colaboradores:
 - [Felipe Mascena](https://github.com/FMascena)
 - [Cassiano Batista](https://github.com/cassianobaptista)
-- Háyran Guilherme
+- [Háyran Guilherme](https://github.com/Hayran-Guilherme)
